@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Lab Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <style media="screen">
+
+        body{
+          background: #cbfffa;
+        }
+        header{
+          display: flex;
+          width:100%;
+          height: auto;
+          background:#1a237e;
+          color:white;
+        }
+        *{
+          font-family: 'Rubik', sans-serif;
+        }
+        .roll{
+          ;
+        }
+        .name{
+
+          text-align-last: right;
+        }
+        .name img{
+
+          width: 25%;
+          height:auto;
+        }
+        .heading{
+          ;
+        }
+        .header_wrapper {
+          width:100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          padding: 0px 43px;
+        }
+        .main{
+
+        }
+        .question1{
+
+          display: flex;
+          width: 100%;
+        }
+        .answer{
+          display: flex;
+          width: 100%;
+        }
+        .question1_wrapper{
+          background:#ecffb3;
+          display:flex;
+          margin-left: 7%;
+          width: -webkit-fill-available;
+        }
+        .answer_wrapper{
+          display:flex;
+          margin-left: 7%;
+          width: -webkit-fill-available;
+        }
+        .q1s{
+
+          border-left:thin solid #cbcbcb;
+          padding-left: 2%;
+          width:auto;
+        }
+        .ans{
+
+        }
+        .q1{
+
+          padding-right: 17px;
+        }
+        .art{
+          border-left:thin solid #cbcbcb;
+          padding-left: 2%;
+          width:auto;
+        }
+        .example{
+          padding:20px;
+          border:20px solid grey;
+          margin:30px;
+          background:#bbdefb;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header_wrapper">
+        <div class="roll">
+          <h2>2006118</h2>
+          <h2>CS3403</h2>
+        </div>
+        <div class="name">
+          <a href="linkedin.com/in/smriti-gupta-820642202"><img src="img\smriti.png" alt=""></a>
+          <h2>Smriti Gupta</h2>
+        </div>
+      </div>
+    </header>
+    <div class="heading">
+      <h1 style="text-align:center;">CSS Lab Assignment</h1>
+    </div>
+    <hr>
+    <div class="main">
+      <div class="question1">
+        <div class="question1_wrapper">
+          <div class="q1">
+            <h3>Q1</h3>
+          </div>
+          <div class="q1s">
+            <h3>Explain box model with an example.</h3>
+          </div>
+        </div>
+      </div>
+      <div class="answer">
+        <div class="answer_wrapper">
+          <div class="ans">
+            <h3>Ans.</h3>
+          </div>
+
+          <article class="art">
+              <p>Everything in CSS has a box around it, and understanding these boxes is key to being able to create layouts with CSS, or to align items with other items. In this lesson, we will take a proper look at the CSS Box Model so that you can build more complex layout tasks with an understanding of how it works and the terminology that relates to it.</p>
+              <p>The image below illustrates the box model:</p>
+              <img src="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model/box-model.png" alt="box_img">
+              <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content</p>
+              <ul>
+                <li><strong>content:&nbsp;&nbsp;</strong>The content of the box, where text and images appear</li>
+                <li><strong>padding:&nbsp;&nbsp;</strong>Clears an area around the content. The padding is transparent</li>
+                <li><strong>border:&nbsp;&nbsp;&nbsp;</strong>A border that goes around the padding and content</li>
+                <li><strong>margin:&nbsp;&nbsp;&nbsp;</strong>Clears an area outside the border. The margin is transparent</li>
+              </ul>
+              <h3>Example of Box Model:</h3>
+              <br>
+              <div class="example">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div>
+
+          </article>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="#">Link to second question</a>
+    </footer>
+
+
+
+  </body>
+</html>
